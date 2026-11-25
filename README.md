@@ -1,3 +1,5 @@
+<a href="https://sai-kanagat.github.io/ctr-lab/"><img src=".github/assets/banner.svg" width="100%" alt="CTR Lab. The DeepFM budget curve, drawn from results/summary.json."></a>
+
 # Ad click prediction on 2014 Avazu data
 
 Click prediction is the same task Google Ads and every ad platform solve. This repo does it on public 2014 Avazu mobile display data, and it is not Google's system or data. I trained logistic regression, LightGBM and DeepFM on an 8 GB M3 MacBook Air and scored them on 2 million held-out impressions.
