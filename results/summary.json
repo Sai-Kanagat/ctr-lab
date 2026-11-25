@@ -1,0 +1,2259 @@
+{
+  "models": {
+    "logreg": {
+      "name": "logreg",
+      "label": "Logistic regression",
+      "auc": 0.7509133279335067,
+      "logloss": 0.3737257470338412,
+      "logloss_constant": 0.4286552399749525,
+      "logloss_gain_pct": 12.814375707694825,
+      "train_seconds": 1672.0730111598969
+    },
+    "lgbm": {
+      "name": "lgbm",
+      "label": "LightGBM",
+      "auc": 0.7365152148576523,
+      "logloss": 0.37926170811229654,
+      "logloss_constant": 0.4286552399749525,
+      "logloss_gain_pct": 11.52290401618376,
+      "train_seconds": 95.21
+    },
+    "deepfm": {
+      "name": "deepfm",
+      "label": "DeepFM",
+      "auc": 0.756644264330671,
+      "logloss": 0.36987354596289396,
+      "logloss_constant": 0.4286552399749525,
+      "logloss_gain_pct": 13.713046880167216,
+      "train_seconds": 375.0
+    }
+  },
+  "budget_curve": {
+    "logreg": [
+      {
+        "k_pct": 1,
+        "clicks": 12064,
+        "share_of_clicks": 0.039621910285800616
+      },
+      {
+        "k_pct": 2,
+        "clicks": 22547,
+        "share_of_clicks": 0.07405132718948496
+      },
+      {
+        "k_pct": 3,
+        "clicks": 31166,
+        "share_of_clicks": 0.10235879111134466
+      },
+      {
+        "k_pct": 4,
+        "clicks": 38383,
+        "share_of_clicks": 0.12606165305867748
+      },
+      {
+        "k_pct": 5,
+        "clicks": 45250,
+        "share_of_clicks": 0.14861500666714836
+      },
+      {
+        "k_pct": 6,
+        "clicks": 51790,
+        "share_of_clicks": 0.17009439105616825
+      },
+      {
+        "k_pct": 7,
+        "clicks": 58053,
+        "share_of_clicks": 0.19066402170271743
+      },
+      {
+        "k_pct": 8,
+        "clicks": 64125,
+        "share_of_clicks": 0.21060634922720198
+      },
+      {
+        "k_pct": 9,
+        "clicks": 70260,
+        "share_of_clicks": 0.23075558825268164
+      },
+      {
+        "k_pct": 10,
+        "clicks": 76177,
+        "share_of_clicks": 0.2501888477985273
+      },
+      {
+        "k_pct": 11,
+        "clicks": 82320,
+        "share_of_clicks": 0.2703643613003238
+      },
+      {
+        "k_pct": 12,
+        "clicks": 88317,
+        "share_of_clicks": 0.29006036560933796
+      },
+      {
+        "k_pct": 13,
+        "clicks": 94220,
+        "share_of_clicks": 0.3094476448216292
+      },
+      {
+        "k_pct": 14,
+        "clicks": 100021,
+        "share_of_clicks": 0.3284999244608806
+      },
+      {
+        "k_pct": 15,
+        "clicks": 105979,
+        "share_of_clicks": 0.3480678406978501
+      },
+      {
+        "k_pct": 16,
+        "clicks": 111759,
+        "share_of_clicks": 0.36705114983676984
+      },
+      {
+        "k_pct": 17,
+        "clicks": 117436,
+        "share_of_clicks": 0.38569617509311016
+      },
+      {
+        "k_pct": 18,
+        "clicks": 122923,
+        "share_of_clicks": 0.4037171815369255
+      },
+      {
+        "k_pct": 19,
+        "clicks": 128310,
+        "share_of_clicks": 0.42140975702678024
+      },
+      {
+        "k_pct": 20,
+        "clicks": 133784,
+        "share_of_clicks": 0.4393880674465807
+      },
+      {
+        "k_pct": 21,
+        "clicks": 139163,
+        "share_of_clicks": 0.45705436846011865
+      },
+      {
+        "k_pct": 22,
+        "clicks": 144405,
+        "share_of_clicks": 0.47427071906673063
+      },
+      {
+        "k_pct": 23,
+        "clicks": 149475,
+        "share_of_clicks": 0.49092216843253045
+      },
+      {
+        "k_pct": 24,
+        "clicks": 154410,
+        "share_of_clicks": 0.5071302360104836
+      },
+      {
+        "k_pct": 25,
+        "clicks": 159246,
+        "share_of_clicks": 0.5230131569440156
+      },
+      {
+        "k_pct": 26,
+        "clicks": 163945,
+        "share_of_clicks": 0.5384461274706218
+      },
+      {
+        "k_pct": 27,
+        "clicks": 168703,
+        "share_of_clicks": 0.5540728722600647
+      },
+      {
+        "k_pct": 28,
+        "clicks": 173277,
+        "share_of_clicks": 0.5690953040942203
+      },
+      {
+        "k_pct": 29,
+        "clicks": 177768,
+        "share_of_clicks": 0.5838451382365886
+      },
+      {
+        "k_pct": 30,
+        "clicks": 181984,
+        "share_of_clicks": 0.5976917872555653
+      },
+      {
+        "k_pct": 31,
+        "clicks": 186247,
+        "share_of_clicks": 0.6116927988229035
+      },
+      {
+        "k_pct": 32,
+        "clicks": 190407,
+        "share_of_clicks": 0.6253555265076622
+      },
+      {
+        "k_pct": 33,
+        "clicks": 194407,
+        "share_of_clicks": 0.6384927646660843
+      },
+      {
+        "k_pct": 34,
+        "clicks": 198239,
+        "share_of_clicks": 0.6510782388218525
+      },
+      {
+        "k_pct": 35,
+        "clicks": 202166,
+        "share_of_clicks": 0.6639757223838832
+      },
+      {
+        "k_pct": 36,
+        "clicks": 205890,
+        "share_of_clicks": 0.676206491109374
+      },
+      {
+        "k_pct": 37,
+        "clicks": 209464,
+        "share_of_clicks": 0.6879446134039241
+      },
+      {
+        "k_pct": 38,
+        "clicks": 213080,
+        "share_of_clicks": 0.6998206766991375
+      },
+      {
+        "k_pct": 39,
+        "clicks": 216514,
+        "share_of_clicks": 0.7110989956581428
+      },
+      {
+        "k_pct": 40,
+        "clicks": 219833,
+        "share_of_clicks": 0.7219996190200934
+      },
+      {
+        "k_pct": 41,
+        "clicks": 223051,
+        "share_of_clicks": 0.7325685271185439
+      },
+      {
+        "k_pct": 42,
+        "clicks": 226186,
+        "share_of_clicks": 0.742864837525207
+      },
+      {
+        "k_pct": 43,
+        "clicks": 229331,
+        "share_of_clicks": 0.7531939910272664
+      },
+      {
+        "k_pct": 44,
+        "clicks": 232296,
+        "share_of_clicks": 0.7629319688121966
+      },
+      {
+        "k_pct": 45,
+        "clicks": 235148,
+        "share_of_clicks": 0.7722988196191515
+      },
+      {
+        "k_pct": 46,
+        "clicks": 237970,
+        "share_of_clicks": 0.7815671411399182
+      },
+      {
+        "k_pct": 47,
+        "clicks": 240491,
+        "share_of_clicks": 0.7898468854892636
+      },
+      {
+        "k_pct": 48,
+        "clicks": 243123,
+        "share_of_clicks": 0.7984911881975052
+      },
+      {
+        "k_pct": 49,
+        "clicks": 245685,
+        "share_of_clicks": 0.8069055892379745
+      },
+      {
+        "k_pct": 50,
+        "clicks": 248068,
+        "share_of_clicks": 0.8147320988708544
+      },
+      {
+        "k_pct": 51,
+        "clicks": 250432,
+        "share_of_clicks": 0.8224962066224818
+      },
+      {
+        "k_pct": 52,
+        "clicks": 252786,
+        "share_of_clicks": 0.8302274712787131
+      },
+      {
+        "k_pct": 53,
+        "clicks": 255163,
+        "share_of_clicks": 0.8380342750543553
+      },
+      {
+        "k_pct": 54,
+        "clicks": 257320,
+        "share_of_clicks": 0.8451185307312844
+      },
+      {
+        "k_pct": 55,
+        "clicks": 259449,
+        "share_of_clicks": 0.8521108257411044
+      },
+      {
+        "k_pct": 56,
+        "clicks": 261532,
+        "share_of_clicks": 0.8589520425121027
+      },
+      {
+        "k_pct": 57,
+        "clicks": 263545,
+        "share_of_clicks": 0.8655633576153285
+      },
+      {
+        "k_pct": 58,
+        "clicks": 265475,
+        "share_of_clicks": 0.8719020750267671
+      },
+      {
+        "k_pct": 59,
+        "clicks": 267431,
+        "share_of_clicks": 0.8783261844862355
+      },
+      {
+        "k_pct": 60,
+        "clicks": 269273,
+        "share_of_clicks": 0.8843758826581888
+      },
+      {
+        "k_pct": 61,
+        "clicks": 271060,
+        "share_of_clicks": 0.8902449438054638
+      },
+      {
+        "k_pct": 62,
+        "clicks": 272735,
+        "share_of_clicks": 0.8957461622843029
+      },
+      {
+        "k_pct": 63,
+        "clicks": 274449,
+        "share_of_clicks": 0.9013754688351868
+      },
+      {
+        "k_pct": 64,
+        "clicks": 276013,
+        "share_of_clicks": 0.9065121289551298
+      },
+      {
+        "k_pct": 65,
+        "clicks": 277593,
+        "share_of_clicks": 0.9117013380277065
+      },
+      {
+        "k_pct": 66,
+        "clicks": 279114,
+        "share_of_clicks": 0.9166967728374464
+      },
+      {
+        "k_pct": 67,
+        "clicks": 280481,
+        "share_of_clicks": 0.921186423978087
+      },
+      {
+        "k_pct": 68,
+        "clicks": 281934,
+        "share_of_clicks": 0.9259585257391338
+      },
+      {
+        "k_pct": 69,
+        "clicks": 283211,
+        "share_of_clicks": 0.9301525890212101
+      },
+      {
+        "k_pct": 70,
+        "clicks": 284416,
+        "share_of_clicks": 0.9341101820164347
+      },
+      {
+        "k_pct": 71,
+        "clicks": 285595,
+        "share_of_clicks": 0.9379823829636296
+      },
+      {
+        "k_pct": 72,
+        "clicks": 286670,
+        "share_of_clicks": 0.9415130157187055
+      },
+      {
+        "k_pct": 73,
+        "clicks": 287742,
+        "share_of_clicks": 0.9450337955451625
+      },
+      {
+        "k_pct": 74,
+        "clicks": 288776,
+        "share_of_clicks": 0.9484297716091146
+      },
+      {
+        "k_pct": 75,
+        "clicks": 289726,
+        "share_of_clicks": 0.9515498656717398
+      },
+      {
+        "k_pct": 76,
+        "clicks": 290666,
+        "share_of_clicks": 0.954637116638969
+      },
+      {
+        "k_pct": 77,
+        "clicks": 291546,
+        "share_of_clicks": 0.9575273090338218
+      },
+      {
+        "k_pct": 78,
+        "clicks": 292372,
+        "share_of_clicks": 0.9602401487135359
+      },
+      {
+        "k_pct": 79,
+        "clicks": 293175,
+        "share_of_clicks": 0.9628774492738391
+      },
+      {
+        "k_pct": 80,
+        "clicks": 293933,
+        "share_of_clicks": 0.9653669559048601
+      },
+      {
+        "k_pct": 81,
+        "clicks": 294639,
+        "share_of_clicks": 0.9676856784398216
+      },
+      {
+        "k_pct": 82,
+        "clicks": 295325,
+        "share_of_clicks": 0.969938714783991
+      },
+      {
+        "k_pct": 83,
+        "clicks": 295947,
+        "share_of_clicks": 0.9719815553176255
+      },
+      {
+        "k_pct": 84,
+        "clicks": 296599,
+        "share_of_clicks": 0.9741229251374484
+      },
+      {
+        "k_pct": 85,
+        "clicks": 297191,
+        "share_of_clicks": 0.9760672363848948
+      },
+      {
+        "k_pct": 86,
+        "clicks": 297829,
+        "share_of_clicks": 0.9781626258711631
+      },
+      {
+        "k_pct": 87,
+        "clicks": 298417,
+        "share_of_clicks": 0.9800937998804511
+      },
+      {
+        "k_pct": 88,
+        "clicks": 299072,
+        "share_of_clicks": 0.9822450226288927
+      },
+      {
+        "k_pct": 89,
+        "clicks": 299694,
+        "share_of_clicks": 0.9842878631625274
+      },
+      {
+        "k_pct": 90,
+        "clicks": 300319,
+        "share_of_clicks": 0.9863405566247808
+      },
+      {
+        "k_pct": 91,
+        "clicks": 300868,
+        "share_of_clicks": 0.9881436425620241
+      },
+      {
+        "k_pct": 92,
+        "clicks": 301359,
+        "share_of_clicks": 0.9897562385459705
+      },
+      {
+        "k_pct": 93,
+        "clicks": 301797,
+        "share_of_clicks": 0.9911947661243177
+      },
+      {
+        "k_pct": 94,
+        "clicks": 302203,
+        "share_of_clicks": 0.9925281957973975
+      },
+      {
+        "k_pct": 95,
+        "clicks": 302567,
+        "share_of_clicks": 0.993723684469814
+      },
+      {
+        "k_pct": 96,
+        "clicks": 302916,
+        "share_of_clicks": 0.9948699084991363
+      },
+      {
+        "k_pct": 97,
+        "clicks": 303260,
+        "share_of_clicks": 0.9959997109807606
+      },
+      {
+        "k_pct": 98,
+        "clicks": 303612,
+        "share_of_clicks": 0.9971557879387016
+      },
+      {
+        "k_pct": 99,
+        "clicks": 303982,
+        "share_of_clicks": 0.9983709824683556
+      },
+      {
+        "k_pct": 100,
+        "clicks": 304478,
+        "share_of_clicks": 1.0
+      }
+    ],
+    "lgbm": [
+      {
+        "k_pct": 1,
+        "clicks": 12626,
+        "share_of_clicks": 0.0414676922470589
+      },
+      {
+        "k_pct": 2,
+        "clicks": 21857,
+        "share_of_clicks": 0.07178515360715716
+      },
+      {
+        "k_pct": 3,
+        "clicks": 30168,
+        "share_of_clicks": 0.09908105019081838
+      },
+      {
+        "k_pct": 4,
+        "clicks": 37596,
+        "share_of_clicks": 0.12347690145100795
+      },
+      {
+        "k_pct": 5,
+        "clicks": 44427,
+        "share_of_clicks": 0.14591201991605304
+      },
+      {
+        "k_pct": 6,
+        "clicks": 50965,
+        "share_of_clicks": 0.16738483568599374
+      },
+      {
+        "k_pct": 7,
+        "clicks": 57453,
+        "share_of_clicks": 0.18869343597895413
+      },
+      {
+        "k_pct": 8,
+        "clicks": 63797,
+        "share_of_clicks": 0.20952909569821138
+      },
+      {
+        "k_pct": 9,
+        "clicks": 70034,
+        "share_of_clicks": 0.2300133342967308
+      },
+      {
+        "k_pct": 10,
+        "clicks": 76194,
+        "share_of_clicks": 0.25024468106070064
+      },
+      {
+        "k_pct": 11,
+        "clicks": 82205,
+        "share_of_clicks": 0.2699866657032692
+      },
+      {
+        "k_pct": 12,
+        "clicks": 88091,
+        "share_of_clicks": 0.2893181116533871
+      },
+      {
+        "k_pct": 13,
+        "clicks": 93824,
+        "share_of_clicks": 0.3081470582439454
+      },
+      {
+        "k_pct": 14,
+        "clicks": 99420,
+        "share_of_clicks": 0.3265260544275777
+      },
+      {
+        "k_pct": 15,
+        "clicks": 104854,
+        "share_of_clicks": 0.3443729924657939
+      },
+      {
+        "k_pct": 16,
+        "clicks": 110161,
+        "share_of_clicks": 0.36180282319248025
+      },
+      {
+        "k_pct": 17,
+        "clicks": 115268,
+        "share_of_clicks": 0.37857579201124547
+      },
+      {
+        "k_pct": 18,
+        "clicks": 120218,
+        "share_of_clicks": 0.39483312423229266
+      },
+      {
+        "k_pct": 19,
+        "clicks": 124989,
+        "share_of_clicks": 0.41050256504575044
+      },
+      {
+        "k_pct": 20,
+        "clicks": 129666,
+        "share_of_clicks": 0.4258632807624853
+      },
+      {
+        "k_pct": 21,
+        "clicks": 134247,
+        "share_of_clicks": 0.44090870276341804
+      },
+      {
+        "k_pct": 22,
+        "clicks": 138828,
+        "share_of_clicks": 0.45595412476435077
+      },
+      {
+        "k_pct": 23,
+        "clicks": 143376,
+        "share_of_clicks": 0.4708911645504765
+      },
+      {
+        "k_pct": 24,
+        "clicks": 147900,
+        "share_of_clicks": 0.4857493809076518
+      },
+      {
+        "k_pct": 25,
+        "clicks": 152215,
+        "share_of_clicks": 0.49992117657104945
+      },
+      {
+        "k_pct": 26,
+        "clicks": 156376,
+        "share_of_clicks": 0.5135871885653479
+      },
+      {
+        "k_pct": 27,
+        "clicks": 160628,
+        "share_of_clicks": 0.5275520727277504
+      },
+      {
+        "k_pct": 28,
+        "clicks": 164480,
+        "share_of_clicks": 0.5402032330743108
+      },
+      {
+        "k_pct": 29,
+        "clicks": 168719,
+        "share_of_clicks": 0.5541254212126985
+      },
+      {
+        "k_pct": 30,
+        "clicks": 172859,
+        "share_of_clicks": 0.5677224627066652
+      },
+      {
+        "k_pct": 31,
+        "clicks": 176819,
+        "share_of_clicks": 0.5807283284835029
+      },
+      {
+        "k_pct": 32,
+        "clicks": 180966,
+        "share_of_clicks": 0.5943483601442469
+      },
+      {
+        "k_pct": 33,
+        "clicks": 184886,
+        "share_of_clicks": 0.6072228535395003
+      },
+      {
+        "k_pct": 34,
+        "clicks": 188642,
+        "share_of_clicks": 0.6195587201702586
+      },
+      {
+        "k_pct": 35,
+        "clicks": 192432,
+        "share_of_clicks": 0.6320062533253634
+      },
+      {
+        "k_pct": 36,
+        "clicks": 196285,
+        "share_of_clicks": 0.6446606979814633
+      },
+      {
+        "k_pct": 37,
+        "clicks": 200342,
+        "share_of_clicks": 0.6579851417836429
+      },
+      {
+        "k_pct": 38,
+        "clicks": 204033,
+        "share_of_clicks": 0.6701075282943267
+      },
+      {
+        "k_pct": 39,
+        "clicks": 207623,
+        "share_of_clicks": 0.6818981995415104
+      },
+      {
+        "k_pct": 40,
+        "clicks": 211059,
+        "share_of_clicks": 0.6931830871195949
+      },
+      {
+        "k_pct": 41,
+        "clicks": 214518,
+        "share_of_clicks": 0.7045435138170902
+      },
+      {
+        "k_pct": 42,
+        "clicks": 217654,
+        "share_of_clicks": 0.714843108533293
+      },
+      {
+        "k_pct": 43,
+        "clicks": 220735,
+        "share_of_clicks": 0.7249620662248175
+      },
+      {
+        "k_pct": 44,
+        "clicks": 223816,
+        "share_of_clicks": 0.7350810239163421
+      },
+      {
+        "k_pct": 45,
+        "clicks": 226725,
+        "share_of_clicks": 0.7446350803670544
+      },
+      {
+        "k_pct": 46,
+        "clicks": 229553,
+        "share_of_clicks": 0.7539231077450588
+      },
+      {
+        "k_pct": 47,
+        "clicks": 232297,
+        "share_of_clicks": 0.7629352531217363
+      },
+      {
+        "k_pct": 48,
+        "clicks": 234934,
+        "share_of_clicks": 0.7715959773776759
+      },
+      {
+        "k_pct": 49,
+        "clicks": 237714,
+        "share_of_clicks": 0.7807263578977791
+      },
+      {
+        "k_pct": 50,
+        "clicks": 240370,
+        "share_of_clicks": 0.7894494840349713
+      },
+      {
+        "k_pct": 51,
+        "clicks": 243007,
+        "share_of_clicks": 0.798110208290911
+      },
+      {
+        "k_pct": 52,
+        "clicks": 245668,
+        "share_of_clicks": 0.8068497559758012
+      },
+      {
+        "k_pct": 53,
+        "clicks": 248210,
+        "share_of_clicks": 0.8151984708254784
+      },
+      {
+        "k_pct": 54,
+        "clicks": 251045,
+        "share_of_clicks": 0.82450948837026
+      },
+      {
+        "k_pct": 55,
+        "clicks": 253403,
+        "share_of_clicks": 0.8322538902646497
+      },
+      {
+        "k_pct": 56,
+        "clicks": 255963,
+        "share_of_clicks": 0.8406617226860397
+      },
+      {
+        "k_pct": 57,
+        "clicks": 258235,
+        "share_of_clicks": 0.8481236739600234
+      },
+      {
+        "k_pct": 58,
+        "clicks": 260415,
+        "share_of_clicks": 0.8552834687563633
+      },
+      {
+        "k_pct": 59,
+        "clicks": 262620,
+        "share_of_clicks": 0.8625253712911934
+      },
+      {
+        "k_pct": 60,
+        "clicks": 264815,
+        "share_of_clicks": 0.8697344307306275
+      },
+      {
+        "k_pct": 61,
+        "clicks": 267003,
+        "share_of_clicks": 0.8769205000032844
+      },
+      {
+        "k_pct": 62,
+        "clicks": 268863,
+        "share_of_clicks": 0.8830293157469505
+      },
+      {
+        "k_pct": 63,
+        "clicks": 270842,
+        "share_of_clicks": 0.8895289643258297
+      },
+      {
+        "k_pct": 64,
+        "clicks": 272635,
+        "share_of_clicks": 0.8954177313303424
+      },
+      {
+        "k_pct": 65,
+        "clicks": 274295,
+        "share_of_clicks": 0.9008696851660876
+      },
+      {
+        "k_pct": 66,
+        "clicks": 275895,
+        "share_of_clicks": 0.9061245804294563
+      },
+      {
+        "k_pct": 67,
+        "clicks": 277495,
+        "share_of_clicks": 0.9113794756928251
+      },
+      {
+        "k_pct": 68,
+        "clicks": 278972,
+        "share_of_clicks": 0.9162304008828224
+      },
+      {
+        "k_pct": 69,
+        "clicks": 280463,
+        "share_of_clicks": 0.9211273064063742
+      },
+      {
+        "k_pct": 70,
+        "clicks": 281952,
+        "share_of_clicks": 0.9260176433108468
+      },
+      {
+        "k_pct": 71,
+        "clicks": 283340,
+        "share_of_clicks": 0.9305762649518192
+      },
+      {
+        "k_pct": 72,
+        "clicks": 284731,
+        "share_of_clicks": 0.9351447395214104
+      },
+      {
+        "k_pct": 73,
+        "clicks": 286045,
+        "share_of_clicks": 0.939460322256452
+      },
+      {
+        "k_pct": 74,
+        "clicks": 287227,
+        "share_of_clicks": 0.9433423761322657
+      },
+      {
+        "k_pct": 75,
+        "clicks": 288466,
+        "share_of_clicks": 0.947411635651837
+      },
+      {
+        "k_pct": 76,
+        "clicks": 289625,
+        "share_of_clicks": 0.9512181504082396
+      },
+      {
+        "k_pct": 77,
+        "clicks": 290666,
+        "share_of_clicks": 0.954637116638969
+      },
+      {
+        "k_pct": 78,
+        "clicks": 291681,
+        "share_of_clicks": 0.9579706908216685
+      },
+      {
+        "k_pct": 79,
+        "clicks": 292623,
+        "share_of_clicks": 0.9610645104079769
+      },
+      {
+        "k_pct": 80,
+        "clicks": 293483,
+        "share_of_clicks": 0.9638890166120376
+      },
+      {
+        "k_pct": 81,
+        "clicks": 294355,
+        "share_of_clicks": 0.9667529345305736
+      },
+      {
+        "k_pct": 82,
+        "clicks": 295136,
+        "share_of_clicks": 0.9693179802810056
+      },
+      {
+        "k_pct": 83,
+        "clicks": 295939,
+        "share_of_clicks": 0.9719552808413088
+      },
+      {
+        "k_pct": 84,
+        "clicks": 296679,
+        "share_of_clicks": 0.9743856699006168
+      },
+      {
+        "k_pct": 85,
+        "clicks": 297369,
+        "share_of_clicks": 0.9766518434829445
+      },
+      {
+        "k_pct": 86,
+        "clicks": 298085,
+        "share_of_clicks": 0.9790034091133021
+      },
+      {
+        "k_pct": 87,
+        "clicks": 298741,
+        "share_of_clicks": 0.9811579161712833
+      },
+      {
+        "k_pct": 88,
+        "clicks": 299310,
+        "share_of_clicks": 0.9830266882993188
+      },
+      {
+        "k_pct": 89,
+        "clicks": 299901,
+        "share_of_clicks": 0.9849677152372257
+      },
+      {
+        "k_pct": 90,
+        "clicks": 300368,
+        "share_of_clicks": 0.9865014877922215
+      },
+      {
+        "k_pct": 91,
+        "clicks": 300861,
+        "share_of_clicks": 0.9881206523952469
+      },
+      {
+        "k_pct": 92,
+        "clicks": 301335,
+        "share_of_clicks": 0.9896774151170199
+      },
+      {
+        "k_pct": 93,
+        "clicks": 301839,
+        "share_of_clicks": 0.9913327071249811
+      },
+      {
+        "k_pct": 94,
+        "clicks": 302339,
+        "share_of_clicks": 0.9929748618947839
+      },
+      {
+        "k_pct": 95,
+        "clicks": 302825,
+        "share_of_clicks": 0.9945710363310322
+      },
+      {
+        "k_pct": 96,
+        "clicks": 303186,
+        "share_of_clicks": 0.9957566720748298
+      },
+      {
+        "k_pct": 97,
+        "clicks": 303541,
+        "share_of_clicks": 0.9969226019613897
+      },
+      {
+        "k_pct": 98,
+        "clicks": 303912,
+        "share_of_clicks": 0.9981410808005833
+      },
+      {
+        "k_pct": 99,
+        "clicks": 304227,
+        "share_of_clicks": 0.999175638305559
+      },
+      {
+        "k_pct": 100,
+        "clicks": 304478,
+        "share_of_clicks": 1.0
+      }
+    ],
+    "deepfm": [
+      {
+        "k_pct": 1,
+        "clicks": 13559,
+        "share_of_clicks": 0.04453195304751082
+      },
+      {
+        "k_pct": 2,
+        "clicks": 24140,
+        "share_of_clicks": 0.0792832322860765
+      },
+      {
+        "k_pct": 3,
+        "clicks": 32839,
+        "share_of_clicks": 0.10785344097110465
+      },
+      {
+        "k_pct": 4,
+        "clicks": 40725,
+        "share_of_clicks": 0.13375350600043354
+      },
+      {
+        "k_pct": 5,
+        "clicks": 48215,
+        "share_of_clicks": 0.15835298445207863
+      },
+      {
+        "k_pct": 6,
+        "clicks": 55268,
+        "share_of_clicks": 0.18151721963491615
+      },
+      {
+        "k_pct": 7,
+        "clicks": 61948,
+        "share_of_clicks": 0.2034564073594808
+      },
+      {
+        "k_pct": 8,
+        "clicks": 68480,
+        "share_of_clicks": 0.22490951727218386
+      },
+      {
+        "k_pct": 9,
+        "clicks": 75065,
+        "share_of_clicks": 0.24653669559048602
+      },
+      {
+        "k_pct": 10,
+        "clicks": 81210,
+        "share_of_clicks": 0.26671877771136177
+      },
+      {
+        "k_pct": 11,
+        "clicks": 87171,
+        "share_of_clicks": 0.28629654687695005
+      },
+      {
+        "k_pct": 12,
+        "clicks": 93201,
+        "share_of_clicks": 0.30610093340077116
+      },
+      {
+        "k_pct": 13,
+        "clicks": 99083,
+        "share_of_clicks": 0.32541924211273066
+      },
+      {
+        "k_pct": 14,
+        "clicks": 104766,
+        "share_of_clicks": 0.3440839732263086
+      },
+      {
+        "k_pct": 15,
+        "clicks": 110482,
+        "share_of_clicks": 0.3628570865546936
+      },
+      {
+        "k_pct": 16,
+        "clicks": 115944,
+        "share_of_clicks": 0.3807959852600188
+      },
+      {
+        "k_pct": 17,
+        "clicks": 121354,
+        "share_of_clicks": 0.3985640998692845
+      },
+      {
+        "k_pct": 18,
+        "clicks": 126719,
+        "share_of_clicks": 0.4161844205492679
+      },
+      {
+        "k_pct": 19,
+        "clicks": 131950,
+        "share_of_clicks": 0.43336464375094425
+      },
+      {
+        "k_pct": 20,
+        "clicks": 137048,
+        "share_of_clicks": 0.45010805378385305
+      },
+      {
+        "k_pct": 21,
+        "clicks": 142127,
+        "share_of_clicks": 0.4667890619355093
+      },
+      {
+        "k_pct": 22,
+        "clicks": 147156,
+        "share_of_clicks": 0.4833058546101853
+      },
+      {
+        "k_pct": 23,
+        "clicks": 152087,
+        "share_of_clicks": 0.49950078494997996
+      },
+      {
+        "k_pct": 24,
+        "clicks": 156928,
+        "share_of_clicks": 0.5154001274312101
+      },
+      {
+        "k_pct": 25,
+        "clicks": 161700,
+        "share_of_clicks": 0.5310728525542076
+      },
+      {
+        "k_pct": 26,
+        "clicks": 166412,
+        "share_of_clicks": 0.5465485191048286
+      },
+      {
+        "k_pct": 27,
+        "clicks": 171029,
+        "share_of_clicks": 0.5617121762491871
+      },
+      {
+        "k_pct": 28,
+        "clicks": 175671,
+        "share_of_clicks": 0.5769579411320358
+      },
+      {
+        "k_pct": 29,
+        "clicks": 180077,
+        "share_of_clicks": 0.5914286089635375
+      },
+      {
+        "k_pct": 30,
+        "clicks": 184318,
+        "share_of_clicks": 0.6053573657210045
+      },
+      {
+        "k_pct": 31,
+        "clicks": 188414,
+        "share_of_clicks": 0.6188098975952285
+      },
+      {
+        "k_pct": 32,
+        "clicks": 192497,
+        "share_of_clicks": 0.6322197334454378
+      },
+      {
+        "k_pct": 33,
+        "clicks": 196412,
+        "share_of_clicks": 0.6450778052929933
+      },
+      {
+        "k_pct": 34,
+        "clicks": 200175,
+        "share_of_clicks": 0.6574366620905288
+      },
+      {
+        "k_pct": 35,
+        "clicks": 203983,
+        "share_of_clicks": 0.6699433128173464
+      },
+      {
+        "k_pct": 36,
+        "clicks": 207545,
+        "share_of_clicks": 0.6816420233974212
+      },
+      {
+        "k_pct": 37,
+        "clicks": 211026,
+        "share_of_clicks": 0.6930747049047878
+      },
+      {
+        "k_pct": 38,
+        "clicks": 214426,
+        "share_of_clicks": 0.7042413573394465
+      },
+      {
+        "k_pct": 39,
+        "clicks": 217669,
+        "share_of_clicks": 0.7148923731763871
+      },
+      {
+        "k_pct": 40,
+        "clicks": 220906,
+        "share_of_clicks": 0.7255236831560901
+      },
+      {
+        "k_pct": 41,
+        "clicks": 224019,
+        "share_of_clicks": 0.735747738752882
+      },
+      {
+        "k_pct": 42,
+        "clicks": 227104,
+        "share_of_clicks": 0.7458798336825649
+      },
+      {
+        "k_pct": 43,
+        "clicks": 229994,
+        "share_of_clicks": 0.7553714882520248
+      },
+      {
+        "k_pct": 44,
+        "clicks": 232916,
+        "share_of_clicks": 0.7649682407267521
+      },
+      {
+        "k_pct": 45,
+        "clicks": 235509,
+        "share_of_clicks": 0.7734844553629491
+      },
+      {
+        "k_pct": 46,
+        "clicks": 238298,
+        "share_of_clicks": 0.7826443946689088
+      },
+      {
+        "k_pct": 47,
+        "clicks": 240876,
+        "share_of_clicks": 0.7911113446620117
+      },
+      {
+        "k_pct": 48,
+        "clicks": 243452,
+        "share_of_clicks": 0.7995717260360354
+      },
+      {
+        "k_pct": 49,
+        "clicks": 245926,
+        "share_of_clicks": 0.8076971078370194
+      },
+      {
+        "k_pct": 50,
+        "clicks": 248315,
+        "share_of_clicks": 0.815543323327137
+      },
+      {
+        "k_pct": 51,
+        "clicks": 250667,
+        "share_of_clicks": 0.8232680193642891
+      },
+      {
+        "k_pct": 52,
+        "clicks": 252980,
+        "share_of_clicks": 0.8308646273293966
+      },
+      {
+        "k_pct": 53,
+        "clicks": 255336,
+        "share_of_clicks": 0.8386024606047071
+      },
+      {
+        "k_pct": 54,
+        "clicks": 257515,
+        "share_of_clicks": 0.8457589710915074
+      },
+      {
+        "k_pct": 55,
+        "clicks": 259591,
+        "share_of_clicks": 0.8525771976957284
+      },
+      {
+        "k_pct": 56,
+        "clicks": 261764,
+        "share_of_clicks": 0.8597140023252912
+      },
+      {
+        "k_pct": 57,
+        "clicks": 263782,
+        "share_of_clicks": 0.866341738976215
+      },
+      {
+        "k_pct": 58,
+        "clicks": 265819,
+        "share_of_clicks": 0.8730318775083914
+      },
+      {
+        "k_pct": 59,
+        "clicks": 267662,
+        "share_of_clicks": 0.8790848599898843
+      },
+      {
+        "k_pct": 60,
+        "clicks": 269373,
+        "share_of_clicks": 0.8847043136121493
+      },
+      {
+        "k_pct": 61,
+        "clicks": 271115,
+        "share_of_clicks": 0.8904255808301421
+      },
+      {
+        "k_pct": 62,
+        "clicks": 272847,
+        "share_of_clicks": 0.8961140049527387
+      },
+      {
+        "k_pct": 63,
+        "clicks": 274517,
+        "share_of_clicks": 0.90159880188388
+      },
+      {
+        "k_pct": 64,
+        "clicks": 276259,
+        "share_of_clicks": 0.9073200691018727
+      },
+      {
+        "k_pct": 65,
+        "clicks": 277871,
+        "share_of_clicks": 0.9126143760797167
+      },
+      {
+        "k_pct": 66,
+        "clicks": 279377,
+        "share_of_clicks": 0.9175605462463626
+      },
+      {
+        "k_pct": 67,
+        "clicks": 280875,
+        "share_of_clicks": 0.9224804419366917
+      },
+      {
+        "k_pct": 68,
+        "clicks": 282314,
+        "share_of_clicks": 0.9272065633641839
+      },
+      {
+        "k_pct": 69,
+        "clicks": 283774,
+        "share_of_clicks": 0.932001655292008
+      },
+      {
+        "k_pct": 70,
+        "clicks": 285055,
+        "share_of_clicks": 0.9362088558122426
+      },
+      {
+        "k_pct": 71,
+        "clicks": 286343,
+        "share_of_clicks": 0.9404390464992545
+      },
+      {
+        "k_pct": 72,
+        "clicks": 287586,
+        "share_of_clicks": 0.9445214432569841
+      },
+      {
+        "k_pct": 73,
+        "clicks": 288724,
+        "share_of_clicks": 0.9482589875130552
+      },
+      {
+        "k_pct": 74,
+        "clicks": 289843,
+        "share_of_clicks": 0.9519341298878736
+      },
+      {
+        "k_pct": 75,
+        "clicks": 290839,
+        "share_of_clicks": 0.9552053021893208
+      },
+      {
+        "k_pct": 76,
+        "clicks": 291768,
+        "share_of_clicks": 0.9582564257516143
+      },
+      {
+        "k_pct": 77,
+        "clicks": 292687,
+        "share_of_clicks": 0.9612747062185116
+      },
+      {
+        "k_pct": 78,
+        "clicks": 293600,
+        "share_of_clicks": 0.9642732808281715
+      },
+      {
+        "k_pct": 79,
+        "clicks": 294451,
+        "share_of_clicks": 0.9670682282463757
+      },
+      {
+        "k_pct": 80,
+        "clicks": 295225,
+        "share_of_clicks": 0.9696102838300305
+      },
+      {
+        "k_pct": 81,
+        "clicks": 295929,
+        "share_of_clicks": 0.9719224377459127
+      },
+      {
+        "k_pct": 82,
+        "clicks": 296607,
+        "share_of_clicks": 0.9741491996137652
+      },
+      {
+        "k_pct": 83,
+        "clicks": 297203,
+        "share_of_clicks": 0.9761066480993701
+      },
+      {
+        "k_pct": 84,
+        "clicks": 297776,
+        "share_of_clicks": 0.977988557465564
+      },
+      {
+        "k_pct": 85,
+        "clicks": 298275,
+        "share_of_clicks": 0.9796274279258271
+      },
+      {
+        "k_pct": 86,
+        "clicks": 298783,
+        "share_of_clicks": 0.9812958571719468
+      },
+      {
+        "k_pct": 87,
+        "clicks": 299246,
+        "share_of_clicks": 0.9828164924887841
+      },
+      {
+        "k_pct": 88,
+        "clicks": 299712,
+        "share_of_clicks": 0.9843469807342402
+      },
+      {
+        "k_pct": 89,
+        "clicks": 300151,
+        "share_of_clicks": 0.985788792622127
+      },
+      {
+        "k_pct": 90,
+        "clicks": 300568,
+        "share_of_clicks": 0.9871583497001425
+      },
+      {
+        "k_pct": 91,
+        "clicks": 300996,
+        "share_of_clicks": 0.9885640341830937
+      },
+      {
+        "k_pct": 92,
+        "clicks": 301403,
+        "share_of_clicks": 0.9899007481657132
+      },
+      {
+        "k_pct": 93,
+        "clicks": 301819,
+        "share_of_clicks": 0.9912670209341891
+      },
+      {
+        "k_pct": 94,
+        "clicks": 302211,
+        "share_of_clicks": 0.9925544702737144
+      },
+      {
+        "k_pct": 95,
+        "clicks": 302609,
+        "share_of_clicks": 0.9938616254704773
+      },
+      {
+        "k_pct": 96,
+        "clicks": 303042,
+        "share_of_clicks": 0.9952837315011265
+      },
+      {
+        "k_pct": 97,
+        "clicks": 303547,
+        "share_of_clicks": 0.9969423078186272
+      },
+      {
+        "k_pct": 98,
+        "clicks": 304045,
+        "share_of_clicks": 0.9985778939693508
+      },
+      {
+        "k_pct": 99,
+        "clicks": 304381,
+        "share_of_clicks": 0.9996814219746583
+      },
+      {
+        "k_pct": 100,
+        "clicks": 304478,
+        "share_of_clicks": 1.0
+      }
+    ],
+    "random": [
+      {
+        "k_pct": 1,
+        "clicks": 3044.78,
+        "share_of_clicks": 0.01
+      },
+      {
+        "k_pct": 2,
+        "clicks": 6089.56,
+        "share_of_clicks": 0.02
+      },
+      {
+        "k_pct": 3,
+        "clicks": 9134.34,
+        "share_of_clicks": 0.03
+      },
+      {
+        "k_pct": 4,
+        "clicks": 12179.12,
+        "share_of_clicks": 0.04
+      },
+      {
+        "k_pct": 5,
+        "clicks": 15223.9,
+        "share_of_clicks": 0.05
+      },
+      {
+        "k_pct": 6,
+        "clicks": 18268.68,
+        "share_of_clicks": 0.06
+      },
+      {
+        "k_pct": 7,
+        "clicks": 21313.46,
+        "share_of_clicks": 0.07
+      },
+      {
+        "k_pct": 8,
+        "clicks": 24358.24,
+        "share_of_clicks": 0.08
+      },
+      {
+        "k_pct": 9,
+        "clicks": 27403.02,
+        "share_of_clicks": 0.09
+      },
+      {
+        "k_pct": 10,
+        "clicks": 30447.8,
+        "share_of_clicks": 0.1
+      },
+      {
+        "k_pct": 11,
+        "clicks": 33492.58,
+        "share_of_clicks": 0.11
+      },
+      {
+        "k_pct": 12,
+        "clicks": 36537.36,
+        "share_of_clicks": 0.12
+      },
+      {
+        "k_pct": 13,
+        "clicks": 39582.14,
+        "share_of_clicks": 0.13
+      },
+      {
+        "k_pct": 14,
+        "clicks": 42626.92,
+        "share_of_clicks": 0.14
+      },
+      {
+        "k_pct": 15,
+        "clicks": 45671.7,
+        "share_of_clicks": 0.15
+      },
+      {
+        "k_pct": 16,
+        "clicks": 48716.48,
+        "share_of_clicks": 0.16
+      },
+      {
+        "k_pct": 17,
+        "clicks": 51761.26,
+        "share_of_clicks": 0.17
+      },
+      {
+        "k_pct": 18,
+        "clicks": 54806.04,
+        "share_of_clicks": 0.18
+      },
+      {
+        "k_pct": 19,
+        "clicks": 57850.82,
+        "share_of_clicks": 0.19
+      },
+      {
+        "k_pct": 20,
+        "clicks": 60895.6,
+        "share_of_clicks": 0.2
+      },
+      {
+        "k_pct": 21,
+        "clicks": 63940.38,
+        "share_of_clicks": 0.21
+      },
+      {
+        "k_pct": 22,
+        "clicks": 66985.16,
+        "share_of_clicks": 0.22
+      },
+      {
+        "k_pct": 23,
+        "clicks": 70029.94,
+        "share_of_clicks": 0.23
+      },
+      {
+        "k_pct": 24,
+        "clicks": 73074.72,
+        "share_of_clicks": 0.24
+      },
+      {
+        "k_pct": 25,
+        "clicks": 76119.5,
+        "share_of_clicks": 0.25
+      },
+      {
+        "k_pct": 26,
+        "clicks": 79164.28,
+        "share_of_clicks": 0.26
+      },
+      {
+        "k_pct": 27,
+        "clicks": 82209.06,
+        "share_of_clicks": 0.27
+      },
+      {
+        "k_pct": 28,
+        "clicks": 85253.84,
+        "share_of_clicks": 0.28
+      },
+      {
+        "k_pct": 29,
+        "clicks": 88298.62,
+        "share_of_clicks": 0.29
+      },
+      {
+        "k_pct": 30,
+        "clicks": 91343.4,
+        "share_of_clicks": 0.3
+      },
+      {
+        "k_pct": 31,
+        "clicks": 94388.18,
+        "share_of_clicks": 0.31
+      },
+      {
+        "k_pct": 32,
+        "clicks": 97432.96,
+        "share_of_clicks": 0.32
+      },
+      {
+        "k_pct": 33,
+        "clicks": 100477.74,
+        "share_of_clicks": 0.33
+      },
+      {
+        "k_pct": 34,
+        "clicks": 103522.52,
+        "share_of_clicks": 0.34
+      },
+      {
+        "k_pct": 35,
+        "clicks": 106567.3,
+        "share_of_clicks": 0.35
+      },
+      {
+        "k_pct": 36,
+        "clicks": 109612.08,
+        "share_of_clicks": 0.36
+      },
+      {
+        "k_pct": 37,
+        "clicks": 112656.86,
+        "share_of_clicks": 0.37
+      },
+      {
+        "k_pct": 38,
+        "clicks": 115701.64,
+        "share_of_clicks": 0.38
+      },
+      {
+        "k_pct": 39,
+        "clicks": 118746.42,
+        "share_of_clicks": 0.39
+      },
+      {
+        "k_pct": 40,
+        "clicks": 121791.2,
+        "share_of_clicks": 0.4
+      },
+      {
+        "k_pct": 41,
+        "clicks": 124835.98,
+        "share_of_clicks": 0.41
+      },
+      {
+        "k_pct": 42,
+        "clicks": 127880.76,
+        "share_of_clicks": 0.42
+      },
+      {
+        "k_pct": 43,
+        "clicks": 130925.54,
+        "share_of_clicks": 0.43
+      },
+      {
+        "k_pct": 44,
+        "clicks": 133970.32,
+        "share_of_clicks": 0.44
+      },
+      {
+        "k_pct": 45,
+        "clicks": 137015.1,
+        "share_of_clicks": 0.45
+      },
+      {
+        "k_pct": 46,
+        "clicks": 140059.88,
+        "share_of_clicks": 0.46
+      },
+      {
+        "k_pct": 47,
+        "clicks": 143104.66,
+        "share_of_clicks": 0.47
+      },
+      {
+        "k_pct": 48,
+        "clicks": 146149.44,
+        "share_of_clicks": 0.48
+      },
+      {
+        "k_pct": 49,
+        "clicks": 149194.22,
+        "share_of_clicks": 0.49
+      },
+      {
+        "k_pct": 50,
+        "clicks": 152239.0,
+        "share_of_clicks": 0.5
+      },
+      {
+        "k_pct": 51,
+        "clicks": 155283.78,
+        "share_of_clicks": 0.51
+      },
+      {
+        "k_pct": 52,
+        "clicks": 158328.56,
+        "share_of_clicks": 0.52
+      },
+      {
+        "k_pct": 53,
+        "clicks": 161373.34,
+        "share_of_clicks": 0.53
+      },
+      {
+        "k_pct": 54,
+        "clicks": 164418.12,
+        "share_of_clicks": 0.54
+      },
+      {
+        "k_pct": 55,
+        "clicks": 167462.9,
+        "share_of_clicks": 0.55
+      },
+      {
+        "k_pct": 56,
+        "clicks": 170507.68,
+        "share_of_clicks": 0.56
+      },
+      {
+        "k_pct": 57,
+        "clicks": 173552.46,
+        "share_of_clicks": 0.57
+      },
+      {
+        "k_pct": 58,
+        "clicks": 176597.24,
+        "share_of_clicks": 0.58
+      },
+      {
+        "k_pct": 59,
+        "clicks": 179642.02,
+        "share_of_clicks": 0.59
+      },
+      {
+        "k_pct": 60,
+        "clicks": 182686.8,
+        "share_of_clicks": 0.6
+      },
+      {
+        "k_pct": 61,
+        "clicks": 185731.58,
+        "share_of_clicks": 0.61
+      },
+      {
+        "k_pct": 62,
+        "clicks": 188776.36,
+        "share_of_clicks": 0.62
+      },
+      {
+        "k_pct": 63,
+        "clicks": 191821.14,
+        "share_of_clicks": 0.63
+      },
+      {
+        "k_pct": 64,
+        "clicks": 194865.92,
+        "share_of_clicks": 0.64
+      },
+      {
+        "k_pct": 65,
+        "clicks": 197910.7,
+        "share_of_clicks": 0.65
+      },
+      {
+        "k_pct": 66,
+        "clicks": 200955.48,
+        "share_of_clicks": 0.66
+      },
+      {
+        "k_pct": 67,
+        "clicks": 204000.26,
+        "share_of_clicks": 0.67
+      },
+      {
+        "k_pct": 68,
+        "clicks": 207045.04,
+        "share_of_clicks": 0.68
+      },
+      {
+        "k_pct": 69,
+        "clicks": 210089.82,
+        "share_of_clicks": 0.69
+      },
+      {
+        "k_pct": 70,
+        "clicks": 213134.6,
+        "share_of_clicks": 0.7
+      },
+      {
+        "k_pct": 71,
+        "clicks": 216179.38,
+        "share_of_clicks": 0.71
+      },
+      {
+        "k_pct": 72,
+        "clicks": 219224.16,
+        "share_of_clicks": 0.72
+      },
+      {
+        "k_pct": 73,
+        "clicks": 222268.94,
+        "share_of_clicks": 0.73
+      },
+      {
+        "k_pct": 74,
+        "clicks": 225313.72,
+        "share_of_clicks": 0.74
+      },
+      {
+        "k_pct": 75,
+        "clicks": 228358.5,
+        "share_of_clicks": 0.75
+      },
+      {
+        "k_pct": 76,
+        "clicks": 231403.28,
+        "share_of_clicks": 0.76
+      },
+      {
+        "k_pct": 77,
+        "clicks": 234448.06,
+        "share_of_clicks": 0.77
+      },
+      {
+        "k_pct": 78,
+        "clicks": 237492.84,
+        "share_of_clicks": 0.78
+      },
+      {
+        "k_pct": 79,
+        "clicks": 240537.62,
+        "share_of_clicks": 0.79
+      },
+      {
+        "k_pct": 80,
+        "clicks": 243582.4,
+        "share_of_clicks": 0.8
+      },
+      {
+        "k_pct": 81,
+        "clicks": 246627.18,
+        "share_of_clicks": 0.81
+      },
+      {
+        "k_pct": 82,
+        "clicks": 249671.96,
+        "share_of_clicks": 0.82
+      },
+      {
+        "k_pct": 83,
+        "clicks": 252716.74,
+        "share_of_clicks": 0.83
+      },
+      {
+        "k_pct": 84,
+        "clicks": 255761.52,
+        "share_of_clicks": 0.84
+      },
+      {
+        "k_pct": 85,
+        "clicks": 258806.3,
+        "share_of_clicks": 0.85
+      },
+      {
+        "k_pct": 86,
+        "clicks": 261851.08,
+        "share_of_clicks": 0.86
+      },
+      {
+        "k_pct": 87,
+        "clicks": 264895.86,
+        "share_of_clicks": 0.87
+      },
+      {
+        "k_pct": 88,
+        "clicks": 267940.64,
+        "share_of_clicks": 0.88
+      },
+      {
+        "k_pct": 89,
+        "clicks": 270985.42,
+        "share_of_clicks": 0.89
+      },
+      {
+        "k_pct": 90,
+        "clicks": 274030.2,
+        "share_of_clicks": 0.9
+      },
+      {
+        "k_pct": 91,
+        "clicks": 277074.98,
+        "share_of_clicks": 0.91
+      },
+      {
+        "k_pct": 92,
+        "clicks": 280119.76,
+        "share_of_clicks": 0.92
+      },
+      {
+        "k_pct": 93,
+        "clicks": 283164.54,
+        "share_of_clicks": 0.93
+      },
+      {
+        "k_pct": 94,
+        "clicks": 286209.32,
+        "share_of_clicks": 0.94
+      },
+      {
+        "k_pct": 95,
+        "clicks": 289254.1,
+        "share_of_clicks": 0.95
+      },
+      {
+        "k_pct": 96,
+        "clicks": 292298.88,
+        "share_of_clicks": 0.96
+      },
+      {
+        "k_pct": 97,
+        "clicks": 295343.66,
+        "share_of_clicks": 0.97
+      },
+      {
+        "k_pct": 98,
+        "clicks": 298388.44,
+        "share_of_clicks": 0.98
+      },
+      {
+        "k_pct": 99,
+        "clicks": 301433.22,
+        "share_of_clicks": 0.99
+      },
+      {
+        "k_pct": 100,
+        "clicks": 304478.0,
+        "share_of_clicks": 1.0
+      }
+    ]
+  },
+  "headline": {
+    "budget_pct": 10,
+    "impressions_bought": 199831,
+    "best_model": "deepfm",
+    "best_model_label": "DeepFM",
+    "clicks_model": 81210,
+    "clicks_random": 30447.8,
+    "lift_multiple": 2.6671877771136177,
+    "clicks_per_1000_model": 406.39340242504915,
+    "clicks_per_1000_random": 152.36775074938322,
+    "share_of_clicks_model": 0.26671877771136177
+  },
+  "calibration": {
+    "logreg": [
+      {
+        "bin": 1,
+        "mean_pred": 0.01969692182006109,
+        "actual_ctr": 0.02081248248528764,
+        "n": 199832
+      },
+      {
+        "bin": 2,
+        "mean_pred": 0.0383831845957411,
+        "actual_ctr": 0.031957003668099546,
+        "n": 199831
+      },
+      {
+        "bin": 3,
+        "mean_pred": 0.0638670964212447,
+        "actual_ctr": 0.04762524333061437,
+        "n": 199831
+      },
+      {
+        "bin": 4,
+        "mean_pred": 0.09403668508064783,
+        "actual_ctr": 0.07577903328312424,
+        "n": 199831
+      },
+      {
+        "bin": 5,
+        "mean_pred": 0.1225614565521239,
+        "actual_ctr": 0.10611466689352503,
+        "n": 199831
+      },
+      {
+        "bin": 6,
+        "mean_pred": 0.15413735627618896,
+        "actual_ctr": 0.1412943937627295,
+        "n": 199831
+      },
+      {
+        "bin": 7,
+        "mean_pred": 0.1922396254730177,
+        "actual_ctr": 0.18940504726493887,
+        "n": 199831
+      },
+      {
+        "bin": 8,
+        "mean_pred": 0.2386221733511551,
+        "actual_ctr": 0.2412038172255556,
+        "n": 199831
+      },
+      {
+        "bin": 9,
+        "mean_pred": 0.29553976015176137,
+        "actual_ctr": 0.2882785954131241,
+        "n": 199831
+      },
+      {
+        "bin": 10,
+        "mean_pred": 0.4182185668170417,
+        "actual_ctr": 0.3812071200164139,
+        "n": 199831
+      }
+    ],
+    "lgbm": [
+      {
+        "bin": 1,
+        "mean_pred": 0.024324590159888443,
+        "actual_ctr": 0.02056727651227031,
+        "n": 199832
+      },
+      {
+        "bin": 2,
+        "mean_pred": 0.052516805792228775,
+        "actual_ctr": 0.03445411372609855,
+        "n": 199831
+      },
+      {
+        "bin": 3,
+        "mean_pred": 0.07813369271162915,
+        "actual_ctr": 0.057703759676927,
+        "n": 199831
+      },
+      {
+        "bin": 4,
+        "mean_pred": 0.10311563451925332,
+        "actual_ctr": 0.08576246928654713,
+        "n": 199831
+      },
+      {
+        "bin": 5,
+        "mean_pred": 0.12825977101467687,
+        "actual_ctr": 0.12232336324193945,
+        "n": 199831
+      },
+      {
+        "bin": 6,
+        "mean_pred": 0.1556079064678914,
+        "actual_ctr": 0.14667894370743279,
+        "n": 199831
+      },
+      {
+        "bin": 7,
+        "mean_pred": 0.18528806370862824,
+        "actual_ctr": 0.19115152303696623,
+        "n": 199831
+      },
+      {
+        "bin": 8,
+        "mean_pred": 0.2228251658217285,
+        "actual_ctr": 0.21614764475982204,
+        "n": 199831
+      },
+      {
+        "bin": 9,
+        "mean_pred": 0.2799335560538054,
+        "actual_ctr": 0.2675961187203187,
+        "n": 199831
+      },
+      {
+        "bin": 10,
+        "mean_pred": 0.3958511424587453,
+        "actual_ctr": 0.3812921919021573,
+        "n": 199831
+      }
+    ],
+    "deepfm": [
+      {
+        "bin": 1,
+        "mean_pred": 0.01331067491114126,
+        "actual_ctr": 0.019566435806077104,
+        "n": 199832
+      },
+      {
+        "bin": 2,
+        "mean_pred": 0.030972650735199336,
+        "actual_ctr": 0.026737593266310034,
+        "n": 199831
+      },
+      {
+        "bin": 3,
+        "mean_pred": 0.05912572009618159,
+        "actual_ctr": 0.050893004588877605,
+        "n": 199831
+      },
+      {
+        "bin": 4,
+        "mean_pred": 0.08854967632803501,
+        "actual_ctr": 0.07847631248404902,
+        "n": 199831
+      },
+      {
+        "bin": 5,
+        "mean_pred": 0.11632564856326769,
+        "actual_ctr": 0.10537904529327281,
+        "n": 199831
+      },
+      {
+        "bin": 6,
+        "mean_pred": 0.14923697008568373,
+        "actual_ctr": 0.1371609009613123,
+        "n": 199831
+      },
+      {
+        "bin": 7,
+        "mean_pred": 0.19215832330306376,
+        "actual_ctr": 0.1830947150342039,
+        "n": 199831
+      },
+      {
+        "bin": 8,
+        "mean_pred": 0.24347436237487086,
+        "actual_ctr": 0.23654988465253138,
+        "n": 199831
+      },
+      {
+        "bin": 9,
+        "mean_pred": 0.2921584884777351,
+        "actual_ctr": 0.27943111929580494,
+        "n": 199831
+      },
+      {
+        "bin": 10,
+        "mean_pred": 0.4207584403313987,
+        "actual_ctr": 0.40638839819647604,
+        "n": 199831
+      }
+    ]
+  },
+  "data": {
+    "train": {
+      "n": 7998480,
+      "clicks": 1400875,
+      "click_rate": 0.17514265210389973
+    },
+    "valid": {
+      "n": 1001170,
+      "clicks": 168293,
+      "click_rate": 0.16809632729706245
+    },
+    "test": {
+      "n": 1998311,
+      "clicks": 304478,
+      "click_rate": 0.15236767450111618
+    }
+  },
+  "test_total_clicks": 304478
+}

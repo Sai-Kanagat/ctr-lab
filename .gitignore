@@ -1,0 +1,7 @@
+.venv/
+data/*.parquet
+data/*.zip
+results/preds_*.npy
+__pycache__/
+.DS_Store
+*.pyc

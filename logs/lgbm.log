@@ -1,0 +1,48 @@
+[50]	valid_0's binary_logloss: 0.413754
+[100]	valid_0's binary_logloss: 0.411578
+[150]	valid_0's binary_logloss: 0.410761
+[200]	valid_0's binary_logloss: 0.410295
+[250]	valid_0's binary_logloss: 0.409767
+{
+  "model": "lgbm",
+  "auc": 0.7365152148576523,
+  "logloss": 0.37926170811229654,
+  "logloss_constant": 0.4286552399749525,
+  "n": 1998311,
+  "best_iteration": 225,
+  "train_seconds": 95.21,
+  "top_features": [
+    [
+      "cat_feat_17",
+      2368534.1
+    ],
+    [
+      "cat_feat_21",
+      861407.17
+    ],
+    [
+      "cat_feat_7",
+      339284.29
+    ],
+    [
+      "cnt_feat_3",
+      330131.91
+    ],
+    [
+      "cat_feat_5",
+      244073.23
+    ],
+    [
+      "cnt_feat_4",
+      207856.6
+    ],
+    [
+      "cnt_feat_9",
+      181243.27
+    ],
+    [
+      "cat_feat_20",
+      169556.03
+    ]
+  ]
+}

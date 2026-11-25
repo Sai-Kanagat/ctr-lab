@@ -1,0 +1,17 @@
+device=mps params=14007328 vocab_total=816702
+epoch 1: train_loss=0.4008 valid_auc=0.7417 (187s)
+epoch 2: train_loss=0.3673 valid_auc=0.7306 (184s)
+{
+  "model": "deepfm",
+  "auc": 0.756644264330671,
+  "logloss": 0.36987354596289396,
+  "logloss_constant": 0.4286552399749525,
+  "n": 1998311,
+  "epochs_run": 2,
+  "best_epoch": 1,
+  "train_seconds": 375.0,
+  "wall_seconds": 377.8,
+  "total_seconds": 396.8,
+  "device": "mps",
+  "n_params": 14007328
+}

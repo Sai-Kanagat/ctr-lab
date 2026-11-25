@@ -1,0 +1,29 @@
+{
+  "model": "logreg",
+  "auc": 0.7509133279335067,
+  "logloss": 0.3737257470338412,
+  "logloss_constant": 0.4286552399749525,
+  "n": 1998311,
+  "C": 0.01,
+  "train_seconds": 1672.0730111598969,
+  "train_seconds_total_grid": 4090.6026151180267,
+  "per_C": {
+    "0.001": {
+      "seconds": 1021.3632230758667,
+      "n_iter": 17,
+      "hit_max_iter": false
+    },
+    "0.003": {
+      "seconds": 1397.1663808822632,
+      "n_iter": 20,
+      "hit_max_iter": false
+    },
+    "0.01": {
+      "seconds": 1672.0730111598969,
+      "n_iter": 25,
+      "hit_max_iter": false
+    }
+  },
+  "intercept_scaling": 10.0,
+  "n_params": 816703
+}
